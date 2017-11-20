@@ -9,7 +9,7 @@ describe('index.js', function () {
     it('is declared with const', function () {
       expect(function () { drivers = []; }).to.throw(TypeError);
     });
-  });
+  }); 
 
   describe('Array functions', function () {
     beforeEach(function () {
